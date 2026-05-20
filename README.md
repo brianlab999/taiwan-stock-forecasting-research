@@ -2,7 +2,7 @@
 
 ##   Overview
 
-This repository collects two related research projects on **forecasting the Taiwan stock market** using machine learning and deep learning. Both studies use TWSE historical data and benchmark against the Taiwan Weighted Stock Index (TWII).
+This repository collects two related research projects on **forecasting the Taiwan stock market** using machine learning. Both studies use TWSE historical data and benchmark against the Taiwan Weighted Stock Index (TWII).
 
 | # | Project | Method | Key Result | Paper |
 |---|---------|--------|------------|-------|
@@ -11,14 +11,9 @@ This repository collects two related research projects on **forecasting the Taiw
 
 ---
 
-##  Project 1 — Multi-Level Momentum & Liquidity Volatility
-
-**Funding:** Taiwan National Science and Technology Council (NSTC) Undergraduate Research Grant
-**Period:** Jul 2025 – Feb 2026
-
+##  Project 1 — An Empirical study on multi-level momentum and votality liquidity Using machine learning
 ### Data
 - Taiwan stock market historical data, **Jan 1999 – Feb 2025**
-- Cross-section of TWSE-listed equities
 
 ### Factors
 A multi-level factor set capturing both momentum and volatility signals:
@@ -45,7 +40,7 @@ Linear baseline vs. nonlinear ensembles:
   
 ---
 
-##  Project 2 — HHDL (HFSLS-PSO-BIGRU) Stock Prediction
+##  Project 2 — Hybrid Hierarchical Deep Learning Framework for Stock Forecasting in the Taiwan Stock Market
 
 ### Key Results
 - **R² = 0.937** on the Taiwan Weighted Stock Index (TWII).
